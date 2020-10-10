@@ -1,0 +1,334 @@
+html {
+    scroll-behavior: smooth;
+}
+.badan{
+    background-color: #ecfbfc;
+    font-family: 'Open Sans', sans-serif;
+}
+.jumbotron{
+    background-color: #58B19F; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: no-repeat;
+    height: 720px;
+    overflow: hidden;
+    color: white;
+}
+.navbar{
+    background-color: #006266;
+    box-shadow: 0px 2px 5px grey;
+}
+.navbar-brand, .display-4{
+    color: white !important;
+    font-family: 'Courgette', cursive;
+    font-weight: 900;
+}
+.navbar-brand{
+    font-weight: 900;
+}
+.nav-link{
+    color: white !important;
+    font-family: 'Open Sans', sans-serif !important; 
+}
+.display-4{
+    text-align: center;
+}
+.fruitbasket{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 40px;
+    width: 45%;
+    height: auto;
+    border-radius: 50%;
+    justify-content: center;
+}
+.benefit{
+    margin-top: 140px;
+}
+.imgbene{
+    /* margin-top: -45px; */
+    width: 100%;
+    height: 405px;
+    object-fit: cover;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.benefitteks{
+    background-color: #006266;
+    height: 450px;
+    padding: 20px 30px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: unset;
+    color: white;
+    margin-bottom: 60px;
+}
+.benefitteks h2{
+    font-weight: 100;
+    text-align: center;
+}
+.benefitteks span{
+    font-weight: 900;
+}
+.benefitteks p{
+    margin-top: 20px;
+}
+.infoo{
+    margin-top: 120px;
+    background-color: #f7b731;
+    height: 650px;
+    background-size: cover;
+    position: relative;
+    /* overflow: hidden; */
+}
+.infooteks{
+    padding: 50px 0px;
+    color: white;
+    text-align: justify;
+}
+.infooteks span{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Courgette', cursive;
+}
+.infooimg{
+    margin-top: 30px;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+}
+.bungkusimg{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    position: relative;
+    z-index: 1;
+}
+.gk{
+    font-weight: 600;
+    text-shadow: 0 0 10px black;
+}
+.gp{
+    margin-top:10px;
+    font-weight: 800;
+}
+.gambar{
+    width: 100%;
+    height: 260px;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.lead{
+    font-size: 18px;
+    text-align: center;
+}
+div.kartu{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    border-radius: 6px;
+    /* box-shadow: 0.3px 0.5px 20px #7ed6df; */
+    margin-bottom: 30px;
+}
+div.kartu:hover .gambar{
+    opacity: 0.3;
+    background-color: #3498db;
+    border-radius: 6px;
+    height: 260px;
+}
+div.kartu:hover .bungkusteks{
+    opacity: 1;
+}
+div.bungkusteks{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+div.tekses{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#34495e;
+    font-size: 30px;
+    padding: 16px 32px;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px #fff;
+}
+.recommend{
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+footer{
+    height: 800px;
+    margin-top: 90px;
+    background-color: #58B19F;
+    bottom: 0;
+    box-shadow: inset -8px -8px 5px -12px#f6d198;
+}
+.atas h5{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #f5f6fa;
+}
+.alamat{
+    font-weight: 200;
+    font-size: 18px;
+    color: #f5f6fa;
+}
+.kontak{
+    font-weight: 200;
+    font-size: 16px;
+    color: #f5f6fa;
+}
+.kontak a{
+    color:#f5f6fa;
+}
+.kontak a:hover{
+    color: #f1f2f6;
+    text-decoration-line: none;
+}
+.buahfooter ul{
+    list-style-type: none;
+    margin-left: -40px;
+}
+.buahfooter a{
+    color: #f5f6fa;
+    font-weight: 200;
+    font-size: 20px;
+}
+.buahfooter a:hover{
+    color: #f1f2f6;
+    text-decoration-line: underline;
+}
+.contfooter ul{
+    list-style-type: none;
+    margin-left: -40px;
+}
+.contfooter a{
+    color: #f5f6fa;
+    font-weight: 200;
+    font-size: 20px;
+}
+.contfooter a:hover{
+    color: #f1f2f6;
+    text-decoration-line: underline;
+}
+.sosmed img{
+    margin-top: -70px;
+    margin-left: -30px;
+    width: 200px;
+    height: auto;
+}
+::-webkit-scrollbar{
+    width: 2px;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 2px white;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: grey;
+}
+#orgbg{
+    background-color: #ffda79;
+}
+#smkbg{
+    background-color: #ff7979;
+}
+#psgbg{
+    background-color: #badc58;
+}
+#avcdbg{
+    background-color: #6ab04c;
+}
+@media(min-width:992px){
+    .jumbotron{
+        margin-top: -64px;
+        height: 550px;
+        margin-bottom: 120px;
+    }
+    .navbar{
+        background-color: unset;
+        box-shadow: unset;
+    }
+    .navbar-brand{
+        font-size: 25px;
+    }
+    .nav-link{
+        color: white !important;
+        margin-left: 20px;
+        font-size: 20px !important;
+    }
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid white;
+        width: 50%;
+        margin: auto;
+        padding: 5px;
+        margin-bottom: -15px;
+    }
+    .jumboteks{
+        margin-top: 25px;
+    }
+    .display-4{
+        font-size: 60px;
+        text-align: unset;
+    }
+    .lead{
+        text-align: unset;
+    }
+    .fruitbasket{
+        width: 65%;
+        height: auto;
+    }
+    .imgbene{
+        object-fit: unset;
+        border-top-left-radius: unset;
+        border-top-right-radius: unset;
+        /* . */
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px; 
+    }
+    .benefitteks{
+        height: 405px;
+        border-bottom-left-radius: unset;
+        border-bottom-right-radius: unset;
+        /* . */
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        margin-bottom: unset;
+    }
+    .benefitteks h2{
+        text-align: unset;
+    }
+    .infoo{
+        height: 300px;
+    }
+    .infooimg{
+        margin-top: -50px;
+        width: 400px;
+        height: 400px;
+        margin-bottom: 120px;
+    }
+    div.kartu{
+        width: 100%;
+        height: 260px;
+    }
+    .recommend{
+        margin-top: 120px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    footer{
+        height: 280px;
+    }
+}
